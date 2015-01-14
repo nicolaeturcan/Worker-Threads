@@ -18,7 +18,7 @@
         android:id="@+id/mImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@dwarable/android/ok" />
+        android:text="@string/hello_world" />
 
     <Button
         android:id="@+id/BtnBoto"
@@ -29,5 +29,13 @@
         android:layout_marginLeft="48dp"
         android:layout_marginTop="76dp"
         android:text="@string/baixar_imatge" />
+
+    <TextView
+        android:id="@+id/lblMissatge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/BtnBoto"
+        android:text="@string/missatge" />
 
 </RelativeLayout>
